@@ -17,8 +17,8 @@ jobs:
       run: |
         npm install
         npm run build
-    - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@v4.5.0
       with:
         ACCESS_TOKEN: ${{ secrets.TOKEN_GITHUB }}
         BASE_BRANCH: develop
