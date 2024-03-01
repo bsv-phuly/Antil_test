@@ -1,0 +1,214 @@
+{
+  "resolvedId": "/home/runner/work/Antil_test/Antil_test/components/ui/select/SelectScrollUpButton.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<script setup lang=\"ts\">\nimport { type HTMLAttributes, computed } from 'vue'\nimport { SelectScrollUpButton, type SelectScrollUpButtonProps, useForwardProps } from 'radix-vue'\nimport { ChevronUp } from 'lucide-vue-next'\nimport { cn } from '@/lib/utils'\n\nconst props = defineProps<SelectScrollUpButtonProps & { class?: HTMLAttributes['class'] }>()\n\nconst delegatedProps = computed(() => {\n  const { class: _, ...delegated } = props\n\n  return delegated\n})\n\nconst forwardedProps = useForwardProps(delegatedProps)\n</script>\n\n<template>\n  <SelectScrollUpButton v-bind=\"forwardedProps\" :class=\"cn('flex cursor-default items-center justify-center py-1', props.class)\">\n    <slot>\n      <ChevronUp class=\"h-4 w-4\" />\n    </slot>\n  </SelectScrollUpButton>\n</template>\n",
+      "start": 1709267491451,
+      "end": 1709267491724,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709267491725,
+      "end": 1709267491725,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709267491725,
+      "end": 1709267491725,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709267491725,
+      "end": 1709267491725,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709267491725,
+      "end": 1709267491725,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709267491725,
+      "end": 1709267491725,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709267491725,
+      "end": 1709267491725,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709267491725,
+      "end": 1709267491725,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"/home/runner/work/Antil_test/Antil_test/components/ui/select/SelectScrollUpButton.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/home/runner/work/Antil_test/Antil_test/components/ui/select/SelectScrollUpButton.vue?vue&type=script&setup=true&lang.ts\";\nexport default _sfc_main;\n",
+      "start": 1709267491725,
+      "end": 1709267491759,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709267491759,
+      "end": 1709267491759,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267491759,
+      "end": 1709267491759,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709267491760,
+      "end": 1709267491760,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1709267491760,
+      "end": 1709267491760,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709267491760,
+      "end": 1709267491760,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267491760,
+      "end": 1709267491760,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709267491760,
+      "end": 1709267491760,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709267491760,
+      "end": 1709267491760,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709267491761,
+      "end": 1709267491761,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709267491761,
+      "end": 1709267491761,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709267491761,
+      "end": 1709267491761,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709267491761,
+      "end": 1709267491761,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709267491761,
+      "end": 1709267491761,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709267491761,
+      "end": 1709267491761,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709267491761,
+      "end": 1709267491761,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709267491761,
+      "end": 1709267491761,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709267491761,
+      "end": 1709267491762,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709267491762,
+      "end": 1709267491762,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709267491763,
+      "end": 1709267491765,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1709267491769,
+      "end": 1709267491771,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1709267491771,
+      "end": 1709267491771,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709267491772,
+      "end": 1709267491772,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709267491772,
+      "end": 1709267491772,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709267491772,
+      "end": 1709267491773,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709267491773,
+      "end": 1709267491773,
+      "order": "normal"
+    }
+  ]
+}

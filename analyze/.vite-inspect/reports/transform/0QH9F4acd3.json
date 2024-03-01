@@ -1,0 +1,221 @@
+{
+  "resolvedId": "/home/runner/work/Antil_test/Antil_test/components/ui/select/Select.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, renderSlot as _renderSlot, normalizeProps as _normalizeProps, guardReactiveProps as _guardReactiveProps, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\"\n\nimport type { SelectRootEmits, SelectRootProps } from 'radix-vue'\nimport { SelectRoot, useForwardPropsEmits } from 'radix-vue'\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Select',\n  props: {\n    open: { type: Boolean },\n    defaultOpen: { type: Boolean },\n    defaultValue: {},\n    modelValue: {},\n    dir: {},\n    name: {},\n    autocomplete: {},\n    disabled: { type: Boolean },\n    required: { type: Boolean }\n  },\n  emits: [\"update:modelValue\", \"update:open\"],\n  setup(__props: any, { emit: __emit }) {\n\nconst props = __props\nconst emits = __emit\n\nconst forwarded = useForwardPropsEmits(props, emits)\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createBlock(_unref(SelectRoot), _normalizeProps(_guardReactiveProps(_unref(forwarded))), {\n    default: _withCtx(() => [\n      _renderSlot(_ctx.$slots, \"default\")\n    ]),\n    _: 3\n  }, 16))\n}\n}\n\n})",
+      "start": 1709267491749,
+      "end": 1709267491749
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709267491750,
+      "end": 1709267491750,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709267491750,
+      "end": 1709267491750,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709267491750,
+      "end": 1709267491750,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709267491750,
+      "end": 1709267491750,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, renderSlot as _renderSlot, normalizeProps as _normalizeProps, guardReactiveProps as _guardReactiveProps, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\";\nimport { SelectRoot, useForwardPropsEmits } from \"radix-vue\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Select\",\n  props: {\n    open: { type: Boolean },\n    defaultOpen: { type: Boolean },\n    defaultValue: {},\n    modelValue: {},\n    dir: {},\n    name: {},\n    autocomplete: {},\n    disabled: { type: Boolean },\n    required: { type: Boolean }\n  },\n  emits: [\"update:modelValue\", \"update:open\"],\n  setup(__props, { emit: __emit }) {\n    const props = __props;\n    const emits = __emit;\n    const forwarded = useForwardPropsEmits(props, emits);\n    return (_ctx, _cache) => {\n      return _openBlock(), _createBlock(_unref(SelectRoot), _normalizeProps(_guardReactiveProps(_unref(forwarded))), {\n        default: _withCtx(() => [\n          _renderSlot(_ctx.$slots, \"default\")\n        ]),\n        _: 3\n      }, 16);\n    };\n  }\n});\n",
+      "start": 1709267491750,
+      "end": 1709267491759,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/runner/work/Antil_test/Antil_test/components/ui/select/Select.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, renderSlot as _renderSlot, normalizeProps as _normalizeProps, guardReactiveProps as _guardReactiveProps, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\"\n\nimport type { SelectRootEmits, SelectRootProps } from 'radix-vue'\nimport { SelectRoot, useForwardPropsEmits } from 'radix-vue'\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Select',\n  props: {\n    open: { type: Boolean },\n    defaultOpen: { type: Boolean },\n    defaultValue: {},\n    modelValue: {},\n    dir: {},\n    name: {},\n    autocomplete: {},\n    disabled: { type: Boolean },\n    required: { type: Boolean }\n  },\n  emits: [\"update:modelValue\", \"update:open\"],\n  setup(__props: any, { emit: __emit }) {\n\nconst props = __props\nconst emits = __emit\n\nconst forwarded = useForwardPropsEmits(props, emits)\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createBlock(_unref(SelectRoot), _normalizeProps(_guardReactiveProps(_unref(forwarded))), {\n    default: _withCtx(() => [\n      _renderSlot(_ctx.$slots, \"default\")\n    ]),\n    _: 3\n  }, 16))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,SAAS,QAAQ,cAAc,aAAa,kBAAkB,iBAAiB,sBAAsB,qBAAqB,WAAW,UAAU,aAAa,YAAY,eAAe,oBAAoB;AAGpN,SAAS,YAAY,4BAA4B;AAGjD,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,OAAO;AAAA,IACL,MAAM,EAAE,MAAM,QAAQ;AAAA,IACtB,aAAa,EAAE,MAAM,QAAQ;AAAA,IAC7B,cAAc,CAAC;AAAA,IACf,YAAY,CAAC;AAAA,IACb,KAAK,CAAC;AAAA,IACN,MAAM,CAAC;AAAA,IACP,cAAc,CAAC;AAAA,IACf,UAAU,EAAE,MAAM,QAAQ;AAAA,IAC1B,UAAU,EAAE,MAAM,QAAQ;AAAA,EAC5B;AAAA,EACA,OAAO,CAAC,qBAAqB,aAAa;AAAA,EAC1C,MAAM,SAAc,EAAE,MAAM,OAAO,GAAG;AAExC,UAAM,QAAQ;AACd,UAAM,QAAQ;AAEd,UAAM,YAAY,qBAAqB,OAAO,KAAK;AAEnD,WAAO,CAAC,MAAU,WAAgB;AAChC,aAAQ,WAAW,GAAG,aAAa,OAAO,UAAU,GAAG,gBAAgB,oBAAoB,OAAO,SAAS,CAAC,CAAC,GAAG;AAAA,QAC9G,SAAS,SAAS,MAAM;AAAA,UACtB,YAAY,KAAK,QAAQ,SAAS;AAAA,QACpC,CAAC;AAAA,QACD,GAAG;AAAA,MACL,GAAG,EAAE;AAAA,IACP;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1709267491759,
+      "end": 1709267491759,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709267491759,
+      "end": 1709267491759,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1709267491760,
+      "end": 1709267491760,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709267491760,
+      "end": 1709267491760,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267491760,
+      "end": 1709267491760,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709267491760,
+      "end": 1709267491760,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1709267491760,
+      "end": 1709267491760,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709267491760,
+      "end": 1709267491760,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267491761,
+      "end": 1709267491761,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709267491761,
+      "end": 1709267491761,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709267491761,
+      "end": 1709267491761,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709267491761,
+      "end": 1709267491761,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709267491761,
+      "end": 1709267491761,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709267491761,
+      "end": 1709267491761,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709267491761,
+      "end": 1709267491761,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709267491761,
+      "end": 1709267491761,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709267491761,
+      "end": 1709267491761,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709267491762,
+      "end": 1709267491762,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709267491762,
+      "end": 1709267491762,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709267491762,
+      "end": 1709267491771,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709267491771,
+      "end": 1709267491772,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709267491772,
+      "end": 1709267491772,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1709267491772,
+      "end": 1709267491772,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1709267491773,
+      "end": 1709267491773,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709267491773,
+      "end": 1709267491773,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709267491773,
+      "end": 1709267491774,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709267491774,
+      "end": 1709267491774,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709267491774,
+      "end": 1709267491774,
+      "order": "normal"
+    }
+  ]
+}

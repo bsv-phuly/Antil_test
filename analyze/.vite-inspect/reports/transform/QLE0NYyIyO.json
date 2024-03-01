@@ -1,0 +1,222 @@
+{
+  "resolvedId": "/home/runner/work/Antil_test/Antil_test/components/ui/select/index.ts",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "export { default as Select } from './Select.vue'\nexport { default as SelectValue } from './SelectValue.vue'\nexport { default as SelectTrigger } from './SelectTrigger.vue'\nexport { default as SelectContent } from './SelectContent.vue'\nexport { default as SelectGroup } from './SelectGroup.vue'\nexport { default as SelectItem } from './SelectItem.vue'\nexport { default as SelectItemText } from './SelectItemText.vue'\nexport { default as SelectLabel } from './SelectLabel.vue'\nexport { default as SelectSeparator } from './SelectSeparator.vue'\nexport { default as SelectScrollUpButton } from './SelectScrollUpButton.vue'\nexport { default as SelectScrollDownButton } from './SelectScrollDownButton.vue'\n",
+      "start": 1709267490411,
+      "end": 1709267491435,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709267491435,
+      "end": 1709267491435,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709267491435,
+      "end": 1709267491435,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709267491435,
+      "end": 1709267491435,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709267491435,
+      "end": 1709267491435,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "export { default as Select } from \"./Select.vue\";\nexport { default as SelectValue } from \"./SelectValue.vue\";\nexport { default as SelectTrigger } from \"./SelectTrigger.vue\";\nexport { default as SelectContent } from \"./SelectContent.vue\";\nexport { default as SelectGroup } from \"./SelectGroup.vue\";\nexport { default as SelectItem } from \"./SelectItem.vue\";\nexport { default as SelectItemText } from \"./SelectItemText.vue\";\nexport { default as SelectLabel } from \"./SelectLabel.vue\";\nexport { default as SelectSeparator } from \"./SelectSeparator.vue\";\nexport { default as SelectScrollUpButton } from \"./SelectScrollUpButton.vue\";\nexport { default as SelectScrollDownButton } from \"./SelectScrollDownButton.vue\";\n",
+      "start": 1709267491435,
+      "end": 1709267491436,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/runner/work/Antil_test/Antil_test/components/ui/select/index.ts"
+        ],
+        "sourcesContent": [
+          "export { default as Select } from './Select.vue'\nexport { default as SelectValue } from './SelectValue.vue'\nexport { default as SelectTrigger } from './SelectTrigger.vue'\nexport { default as SelectContent } from './SelectContent.vue'\nexport { default as SelectGroup } from './SelectGroup.vue'\nexport { default as SelectItem } from './SelectItem.vue'\nexport { default as SelectItemText } from './SelectItemText.vue'\nexport { default as SelectLabel } from './SelectLabel.vue'\nexport { default as SelectSeparator } from './SelectSeparator.vue'\nexport { default as SelectScrollUpButton } from './SelectScrollUpButton.vue'\nexport { default as SelectScrollDownButton } from './SelectScrollDownButton.vue'\n"
+        ],
+        "mappings": "AAAA,SAAS,WAAW,cAAc;AAClC,SAAS,WAAW,mBAAmB;AACvC,SAAS,WAAW,qBAAqB;AACzC,SAAS,WAAW,qBAAqB;AACzC,SAAS,WAAW,mBAAmB;AACvC,SAAS,WAAW,kBAAkB;AACtC,SAAS,WAAW,sBAAsB;AAC1C,SAAS,WAAW,mBAAmB;AACvC,SAAS,WAAW,uBAAuB;AAC3C,SAAS,WAAW,4BAA4B;AAChD,SAAS,WAAW,8BAA8B;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1709267491436,
+      "end": 1709267491436,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709267491437,
+      "end": 1709267491437,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1709267491437,
+      "end": 1709267491437,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709267491437,
+      "end": 1709267491437,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267491437,
+      "end": 1709267491437,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709267491437,
+      "end": 1709267491437,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1709267491437,
+      "end": 1709267491437,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709267491437,
+      "end": 1709267491437,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267491437,
+      "end": 1709267491437,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709267491437,
+      "end": 1709267491437,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709267491437,
+      "end": 1709267491437,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709267491437,
+      "end": 1709267491437,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709267491437,
+      "end": 1709267491437,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709267491437,
+      "end": 1709267491437,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709267491437,
+      "end": 1709267491437,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709267491437,
+      "end": 1709267491437,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709267491437,
+      "end": 1709267491437,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709267491437,
+      "end": 1709267491437,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709267491437,
+      "end": 1709267491438,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709267491438,
+      "end": 1709267491439,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709267491439,
+      "end": 1709267491439,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709267491439,
+      "end": 1709267491439,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1709267491439,
+      "end": 1709267491439,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1709267491439,
+      "end": 1709267491439,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709267491439,
+      "end": 1709267491439,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709267491439,
+      "end": 1709267491439,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709267491439,
+      "end": 1709267491440,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709267491440,
+      "end": 1709267491440,
+      "order": "normal"
+    }
+  ]
+}

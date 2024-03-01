@@ -1,0 +1,288 @@
+{
+  "resolvedId": "/home/runner/work/Antil_test/Antil_test/pages/login.vue?vue&type=style&index=0&scoped=1c8c5ad4&lang.scss?inline&used",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\n.login-layout {\n    min-height: calc(100vh - 56px);\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    .login-form {\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        width: 439px;\n        padding: 24px 48px;\n        gap: 32px;\n        background-color: rgba(255, 255, 255, 1);\n        border: 1px solid rgba(217, 224, 232, 1);\n        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.08);\n    }\n    .input-layout {\n        display: flex;\n        flex-direction: column;\n        gap: 24px;\n        width: 100%;\n        .label-input {\n            display: flex;\n            flex-direction: column;\n            gap: 12px;\n            .label {\n                font-family: 'Hiragino Sans';\n                font-style: normal;\n                font-weight: 600;\n                font-size: 14px;\n                line-height: 140%;\n                color: #08121A;\n            }\n        }\n    }\n    .title {\n        font-family: 'Helvetica Neue';\n        font-style: normal;\n        font-weight: 400;\n        font-size: 14px;\n        line-height: 120%;\n        margin-top: 16px;\n    }\n    .link-text {\n        font-family: 'Helvetica Neue';\n        font-style: normal;\n        font-weight: 700;\n        font-size: 14px;\n        line-height: 120%;\n        color: #FF7800;\n        gap: 4px;\n    }\n}\n",
+      "start": 1709267500415,
+      "end": 1709267500415,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/runner/work/Antil_test/Antil_test/pages/login.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "/home/runner/work/Antil_test/Antil_test/pages/login.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\n    <div class=\"login-layout\">\n        <div class=\"login-form\">\n            <div class=\"\">\n                <img src=\"/images/main_logo.svg\"/>\n                <div class=\"title\">\n                    PRマネージャーのIDでログインできます\n                </div>\n            </div>\n            <div class=\"input-layout\">\n                <div class=\"label-input\">\n                    <div class=\"label\">サブドメイン</div>\n                    <input placeholder=\"bravesoft\" />\n                </div>\n                <div class=\"label-input\">\n                    <div class=\"label\">メールアドレス</div>\n                    <input placeholder=\"cookpit@cookpit.com\" />\n                </div>\n                <div class=\"label-input\">\n                    <div class=\"label\">パスワード</div>\n                    <input type=\"password\" placeholder=\"・・・・・・\" />\n                </div>\n            </div>\n            <button type=\"submit\" class=\"btn-submit\">ログイン</button>\n            <div class=\"d-flex align-items-center link-text\">\n                PRマネージャーへ\n                <img src=\"/images/link_img.svg\" />\n            </div>\n        </div>\n    </div>\n</template>\n<script setup lang=\"ts\">\nuseHead({\n  title: 'Login',\n  meta: [\n    { name: 'login' }\n  ],\n})\n</script>\n<style lang=\"scss\" scoped>\n.login-layout {\n    min-height: calc(100vh - 56px);\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    .login-form {\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        width: 439px;\n        padding: 24px 48px;\n        gap: 32px;\n        background-color: rgba(255, 255, 255, 1);\n        border: 1px solid rgba(217, 224, 232, 1);\n        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.08);\n    }\n    .input-layout {\n        display: flex;\n        flex-direction: column;\n        gap: 24px;\n        width: 100%;\n        .label-input {\n            display: flex;\n            flex-direction: column;\n            gap: 12px;\n            .label {\n                font-family: 'Hiragino Sans';\n                font-style: normal;\n                font-weight: 600;\n                font-size: 14px;\n                line-height: 140%;\n                color: #08121A;\n            }\n        }\n    }\n    .title {\n        font-family: 'Helvetica Neue';\n        font-style: normal;\n        font-weight: 400;\n        font-size: 14px;\n        line-height: 120%;\n        margin-top: 16px;\n    }\n    .link-text {\n        font-family: 'Helvetica Neue';\n        font-style: normal;\n        font-weight: 700;\n        font-size: 14px;\n        line-height: 120%;\n        color: #FF7800;\n        gap: 4px;\n    }\n}\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709267500415,
+      "end": 1709267500415,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709267500415,
+      "end": 1709267500415,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709267500415,
+      "end": 1709267500415,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709267500415,
+      "end": 1709267500415,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709267500415,
+      "end": 1709267500415,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".login-layout{align-items:center;display:flex;justify-content:center;min-height:calc(100vh - 56px)}.login-layout .login-form{align-items:center;background-color:#fff;border:1px solid #d9e0e8;box-shadow:0 1px 4px 0 rgba(0,0,0,.08);display:flex;flex-direction:column;gap:32px;padding:24px 48px;width:439px}.login-layout .input-layout{display:flex;flex-direction:column;gap:24px;width:100%}.login-layout .input-layout .label-input{display:flex;flex-direction:column;gap:12px}.login-layout .input-layout .label-input .label{color:#08121a;font-family:Hiragino Sans;font-size:14px;font-style:normal;font-weight:600;line-height:140%}.login-layout .title{font-weight:400;margin-top:16px}.login-layout .link-text,.login-layout .title{font-family:Helvetica Neue;font-size:14px;font-style:normal;line-height:120%}.login-layout .link-text{color:#ff7800;font-weight:700;gap:4px}",
+      "start": 1709267500415,
+      "end": 1709267500448,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "/home/runner/work/Antil_test/Antil_test/pages/login.vue",
+        "mappings": "AACA,cAII,mBAFA,aACA,uBAFA,8BAIA,0BAGI,mBAIA,sBACA,yBACA,uCARA,aACA,sBAIA,SADA,kBADA,YAOJ,4BACI,aACA,sBACA,SACA,WACA,yCACI,aACA,sBACA,SACA,gDAMI,cALA,0BAGA,eAFA,kBACA,gBAEA,iBAKZ,qBAGI,gBAGA,gBAEJ,8CAPI,2BAGA,eAFA,kBAGA,iBAGJ,yBAMI,cAHA,gBAIA",
+        "names": [],
+        "sources": [
+          "/home/runner/work/Antil_test/Antil_test/pages/login.vue"
+        ],
+        "sourcesContent": [
+          null
+        ]
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709267500448,
+      "end": 1709267500448,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709267500448,
+      "end": 1709267500448,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709267500448,
+      "end": 1709267500448,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".login-layout[data-v-1c8c5ad4]{align-items:center;display:flex;justify-content:center;min-height:calc(100vh - 56px)}.login-layout .login-form[data-v-1c8c5ad4]{align-items:center;background-color:#fff;border:1px solid #d9e0e8;box-shadow:0 1px 4px 0 rgba(0,0,0,.08);display:flex;flex-direction:column;gap:32px;padding:24px 48px;width:439px}.login-layout .input-layout[data-v-1c8c5ad4]{display:flex;flex-direction:column;gap:24px;width:100%}.login-layout .input-layout .label-input[data-v-1c8c5ad4]{display:flex;flex-direction:column;gap:12px}.login-layout .input-layout .label-input .label[data-v-1c8c5ad4]{color:#08121a;font-family:Hiragino Sans;font-size:14px;font-style:normal;font-weight:600;line-height:140%}.login-layout .title[data-v-1c8c5ad4]{font-weight:400;margin-top:16px}.login-layout .link-text[data-v-1c8c5ad4],.login-layout .title[data-v-1c8c5ad4]{font-family:Helvetica Neue;font-size:14px;font-style:normal;line-height:120%}.login-layout .link-text[data-v-1c8c5ad4]{color:#ff7800;font-weight:700;gap:4px}",
+      "start": 1709267500448,
+      "end": 1709267500450,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "/home/runner/work/Antil_test/Antil_test/pages/login.vue",
+        "mappings": "AAAA,+BAAc,kBAAkB,CAAC,YAAY,CAAC,sBAAsB,CAAC,6BAA6B,CAAC,2CAA0B,kBAAkB,CAAC,qBAAqB,CAAC,wBAAwB,CAAC,sCAAsC,CAAC,YAAY,CAAC,qBAAqB,CAAC,QAAQ,CAAC,iBAAiB,CAAC,WAAW,CAAC,6CAA4B,YAAY,CAAC,qBAAqB,CAAC,QAAQ,CAAC,UAAU,CAAC,0DAAyC,YAAY,CAAC,qBAAqB,CAAC,QAAQ,CAAC,iEAAgD,aAAa,CAAC,yBAAyB,CAAC,cAAc,CAAC,iBAAiB,CAAC,eAAe,CAAC,gBAAgB,CAAC,sCAAqB,eAAe,CAAC,eAAe,CAAC,gFAA8C,0BAA0B,CAAC,cAAc,CAAC,iBAAiB,CAAC,gBAAgB,CAAC,0CAAyB,aAAa,CAAC,eAAe,CAAC,OAAO",
+        "names": [],
+        "sources": [
+          "/home/runner/work/Antil_test/Antil_test/pages/login.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default \".login-layout[data-v-1c8c5ad4]{align-items:center;display:flex;justify-content:center;min-height:calc(100vh - 56px)}.login-layout .login-form[data-v-1c8c5ad4]{align-items:center;background-color:#fff;border:1px solid #d9e0e8;box-shadow:0 1px 4px 0 rgba(0,0,0,.08);display:flex;flex-direction:column;gap:32px;padding:24px 48px;width:439px}.login-layout .input-layout[data-v-1c8c5ad4]{display:flex;flex-direction:column;gap:24px;width:100%}.login-layout .input-layout .label-input[data-v-1c8c5ad4]{display:flex;flex-direction:column;gap:12px}.login-layout .input-layout .label-input .label[data-v-1c8c5ad4]{color:#08121a;font-family:Hiragino Sans;font-size:14px;font-style:normal;font-weight:600;line-height:140%}.login-layout .title[data-v-1c8c5ad4]{font-weight:400;margin-top:16px}.login-layout .link-text[data-v-1c8c5ad4],.login-layout .title[data-v-1c8c5ad4]{font-family:Helvetica Neue;font-size:14px;font-style:normal;line-height:120%}.login-layout .link-text[data-v-1c8c5ad4]{color:#ff7800;font-weight:700;gap:4px}\"",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709267500450,
+      "end": 1709267500450,
+      "order": "normal"
+    }
+  ]
+}

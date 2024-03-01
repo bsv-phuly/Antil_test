@@ -1,0 +1,271 @@
+{
+  "resolvedId": "/home/runner/work/Antil_test/Antil_test/components/ui/select/Select.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, withCtx as _withCtx, renderSlot as _renderSlot, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderSlot as _ssrRenderSlot, ssrRenderComponent as _ssrRenderComponent } from \"vue/server-renderer\"\n\nimport type { SelectRootEmits, SelectRootProps } from 'radix-vue'\nimport { SelectRoot, useForwardPropsEmits } from 'radix-vue'\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Select',\n  __ssrInlineRender: true,\n  props: {\n    open: { type: Boolean },\n    defaultOpen: { type: Boolean },\n    defaultValue: {},\n    modelValue: {},\n    dir: {},\n    name: {},\n    autocomplete: {},\n    disabled: { type: Boolean },\n    required: { type: Boolean }\n  },\n  emits: [\"update:modelValue\", \"update:open\"],\n  setup(__props: any, { emit: __emit }) {\n\nconst props = __props\nconst emits = __emit\n\nconst forwarded = useForwardPropsEmits(props, emits)\n\nreturn (_ctx: any,_push: any,_parent: any,_attrs: any) => {\n  _push(_ssrRenderComponent(_unref(SelectRoot), _mergeProps(_unref(forwarded), _attrs), {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _ssrRenderSlot(_ctx.$slots, \"default\", {}, null, _push, _parent, _scopeId)\n      } else {\n        return [\n          _renderSlot(_ctx.$slots, \"default\")\n        ]\n      }\n    }),\n    _: 3\n  }, _parent))\n}\n}\n\n})",
+      "start": 1709267502260,
+      "end": 1709267502260,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/runner/work/Antil_test/Antil_test/components/ui/select/Select.vue"
+        ],
+        "sourcesContent": [
+          "<script setup lang=\"ts\">\nimport type { SelectRootEmits, SelectRootProps } from 'radix-vue'\nimport { SelectRoot, useForwardPropsEmits } from 'radix-vue'\n\nconst props = defineProps<SelectRootProps>()\nconst emits = defineEmits<SelectRootEmits>()\n\nconst forwarded = useForwardPropsEmits(props, emits)\n</script>\n\n<template>\n  <SelectRoot v-bind=\"forwarded\">\n    <slot />\n  </SelectRoot>\n</template>\n"
+        ],
+        "names": [],
+        "mappings": ";;;;AACA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC5D;;;;;;;;;;;;;;;;;;AAHwB;AAIxB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,OAA8B;AAC5C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,MAA8B;AAC5C;AACA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;;;;;;;;;;;;;;;;;;"
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709267502260,
+      "end": 1709267502260,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709267502260,
+      "end": 1709267502260,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709267502260,
+      "end": 1709267502260,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709267502260,
+      "end": 1709267502260,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709267502260,
+      "end": 1709267502260,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709267502260,
+      "end": 1709267502260,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, withCtx as _withCtx, renderSlot as _renderSlot, mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderSlot as _ssrRenderSlot, ssrRenderComponent as _ssrRenderComponent } from \"vue/server-renderer\";\nimport { SelectRoot, useForwardPropsEmits } from \"radix-vue\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Select\",\n  __ssrInlineRender: true,\n  props: {\n    open: { type: Boolean },\n    defaultOpen: { type: Boolean },\n    defaultValue: {},\n    modelValue: {},\n    dir: {},\n    name: {},\n    autocomplete: {},\n    disabled: { type: Boolean },\n    required: { type: Boolean }\n  },\n  emits: [\"update:modelValue\", \"update:open\"],\n  setup(__props, { emit: __emit }) {\n    const props = __props;\n    const emits = __emit;\n    const forwarded = useForwardPropsEmits(props, emits);\n    return (_ctx, _push, _parent, _attrs) => {\n      _push(_ssrRenderComponent(_unref(SelectRoot), _mergeProps(_unref(forwarded), _attrs), {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _ssrRenderSlot(_ctx.$slots, \"default\", {}, null, _push2, _parent2, _scopeId);\n          } else {\n            return [\n              _renderSlot(_ctx.$slots, \"default\")\n            ];\n          }\n        }),\n        _: 3\n      }, _parent));\n    };\n  }\n});\n",
+      "start": 1709267502260,
+      "end": 1709267502266,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/runner/work/Antil_test/Antil_test/components/ui/select/Select.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, withCtx as _withCtx, renderSlot as _renderSlot, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderSlot as _ssrRenderSlot, ssrRenderComponent as _ssrRenderComponent } from \"vue/server-renderer\"\n\nimport type { SelectRootEmits, SelectRootProps } from 'radix-vue'\nimport { SelectRoot, useForwardPropsEmits } from 'radix-vue'\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Select',\n  __ssrInlineRender: true,\n  props: {\n    open: { type: Boolean },\n    defaultOpen: { type: Boolean },\n    defaultValue: {},\n    modelValue: {},\n    dir: {},\n    name: {},\n    autocomplete: {},\n    disabled: { type: Boolean },\n    required: { type: Boolean }\n  },\n  emits: [\"update:modelValue\", \"update:open\"],\n  setup(__props: any, { emit: __emit }) {\n\nconst props = __props\nconst emits = __emit\n\nconst forwarded = useForwardPropsEmits(props, emits)\n\nreturn (_ctx: any,_push: any,_parent: any,_attrs: any) => {\n  _push(_ssrRenderComponent(_unref(SelectRoot), _mergeProps(_unref(forwarded), _attrs), {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _ssrRenderSlot(_ctx.$slots, \"default\", {}, null, _push, _parent, _scopeId)\n      } else {\n        return [\n          _renderSlot(_ctx.$slots, \"default\")\n        ]\n      }\n    }),\n    _: 3\n  }, _parent))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,SAAS,QAAQ,WAAW,UAAU,cAAc,aAAa,cAAc,mBAAmB;AAC3G,SAAS,iBAAiB,gBAAgB,sBAAsB,2BAA2B;AAG3F,SAAS,YAAY,4BAA4B;AAGjD,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,mBAAmB;AAAA,EACnB,OAAO;AAAA,IACL,MAAM,EAAE,MAAM,QAAQ;AAAA,IACtB,aAAa,EAAE,MAAM,QAAQ;AAAA,IAC7B,cAAc,CAAC;AAAA,IACf,YAAY,CAAC;AAAA,IACb,KAAK,CAAC;AAAA,IACN,MAAM,CAAC;AAAA,IACP,cAAc,CAAC;AAAA,IACf,UAAU,EAAE,MAAM,QAAQ;AAAA,IAC1B,UAAU,EAAE,MAAM,QAAQ;AAAA,EAC5B;AAAA,EACA,OAAO,CAAC,qBAAqB,aAAa;AAAA,EAC1C,MAAM,SAAc,EAAE,MAAM,OAAO,GAAG;AAExC,UAAM,QAAQ;AACd,UAAM,QAAQ;AAEd,UAAM,YAAY,qBAAqB,OAAO,KAAK;AAEnD,WAAO,CAAC,MAAU,OAAW,SAAa,WAAgB;AACxD,YAAM,oBAAoB,OAAO,UAAU,GAAG,YAAY,OAAO,SAAS,GAAG,MAAM,GAAG;AAAA,QACpF,SAAS,SAAS,CAAC,GAAGA,QAAOC,UAAS,aAAa;AACjD,cAAID,QAAO;AACT,2BAAe,KAAK,QAAQ,WAAW,CAAC,GAAG,MAAMA,QAAOC,UAAS,QAAQ;AAAA,UAC3E,OAAO;AACL,mBAAO;AAAA,cACL,YAAY,KAAK,QAAQ,SAAS;AAAA,YACpC;AAAA,UACF;AAAA,QACF,CAAC;AAAA,QACD,GAAG;AAAA,MACL,GAAG,OAAO,CAAC;AAAA,IACb;AAAA,EACA;AAEA,CAAC;",
+        "names": [
+          "_push",
+          "_parent"
+        ]
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1709267502266,
+      "end": 1709267502266,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709267502266,
+      "end": 1709267502266,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1709267502266,
+      "end": 1709267502266,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709267502267,
+      "end": 1709267502267,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267502267,
+      "end": 1709267502267,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267502267,
+      "end": 1709267502267,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709267502267,
+      "end": 1709267502267,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709267502267,
+      "end": 1709267502267,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709267502267,
+      "end": 1709267502267,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267502267,
+      "end": 1709267502267,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709267502268,
+      "end": 1709267502269,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709267502269,
+      "end": 1709267502270,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709267502270,
+      "end": 1709267502270,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709267502270,
+      "end": 1709267502270,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709267502270,
+      "end": 1709267502270,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709267502270,
+      "end": 1709267502270,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709267502270,
+      "end": 1709267502270,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709267502270,
+      "end": 1709267502270,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709267502271,
+      "end": 1709267502271,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709267502271,
+      "end": 1709267502271,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709267502271,
+      "end": 1709267502271,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709267502271,
+      "end": 1709267502275,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709267502271,
+      "end": 1709267502275,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709267502275,
+      "end": 1709267502275,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709267502275,
+      "end": 1709267502275,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709267502275,
+      "end": 1709267502275,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709267502275,
+      "end": 1709267502275,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1709267502275,
+      "end": 1709267502275,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709267502275,
+      "end": 1709267502276,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709267502276,
+      "end": 1709267502276,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709267502276,
+      "end": 1709267502276,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709267502276,
+      "end": 1709267502276,
+      "order": "normal"
+    }
+  ]
+}

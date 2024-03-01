@@ -1,0 +1,221 @@
+{
+  "resolvedId": "/home/runner/work/Antil_test/Antil_test/components/ui/select/SelectTrigger.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, renderSlot as _renderSlot, createVNode as _createVNode, withCtx as _withCtx, mergeProps as _mergeProps, openBlock as _openBlock, createBlock as _createBlock } from \"vue\"\n\nimport { type HTMLAttributes, computed } from 'vue'\nimport { SelectIcon, SelectTrigger, type SelectTriggerProps, useForwardProps } from 'radix-vue'\nimport { ChevronDown } from 'lucide-vue-next'\nimport { cn } from '@/lib/utils'\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'SelectTrigger',\n  props: {\n    disabled: { type: Boolean },\n    asChild: { type: Boolean },\n    as: {},\n    class: {}\n  },\n  setup(__props: any) {\n\nconst props = __props\n\nconst delegatedProps = computed(() => {\n  const { class: _, ...delegated } = props\n\n  return delegated\n})\n\nconst forwardedProps = useForwardProps(delegatedProps)\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createBlock(_unref(SelectTrigger), _mergeProps(_unref(forwardedProps), {\n    class: _unref(cn)(\n      'flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1',\n      props.class,\n    )\n  }), {\n    default: _withCtx(() => [\n      _renderSlot(_ctx.$slots, \"default\"),\n      _createVNode(_unref(SelectIcon), { \"as-child\": \"\" }, {\n        default: _withCtx(() => [\n          _createVNode(_unref(ChevronDown), { class: \"w-4 h-4 opacity-50\" })\n        ]),\n        _: 1\n      })\n    ]),\n    _: 3\n  }, 16, [\"class\"]))\n}\n}\n\n})",
+      "start": 1709267491777,
+      "end": 1709267491777
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709267491777,
+      "end": 1709267491777,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709267491777,
+      "end": 1709267491777,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709267491777,
+      "end": 1709267491777,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709267491777,
+      "end": 1709267491777,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, renderSlot as _renderSlot, createVNode as _createVNode, withCtx as _withCtx, mergeProps as _mergeProps, openBlock as _openBlock, createBlock as _createBlock } from \"vue\";\nimport { computed } from \"vue\";\nimport { SelectIcon, SelectTrigger, useForwardProps } from \"radix-vue\";\nimport { ChevronDown } from \"lucide-vue-next\";\nimport { cn } from \"@/lib/utils\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"SelectTrigger\",\n  props: {\n    disabled: { type: Boolean },\n    asChild: { type: Boolean },\n    as: {},\n    class: {}\n  },\n  setup(__props) {\n    const props = __props;\n    const delegatedProps = computed(() => {\n      const { class: _, ...delegated } = props;\n      return delegated;\n    });\n    const forwardedProps = useForwardProps(delegatedProps);\n    return (_ctx, _cache) => {\n      return _openBlock(), _createBlock(_unref(SelectTrigger), _mergeProps(_unref(forwardedProps), {\n        class: _unref(cn)(\n          \"flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1\",\n          props.class\n        )\n      }), {\n        default: _withCtx(() => [\n          _renderSlot(_ctx.$slots, \"default\"),\n          _createVNode(_unref(SelectIcon), { \"as-child\": \"\" }, {\n            default: _withCtx(() => [\n              _createVNode(_unref(ChevronDown), { class: \"w-4 h-4 opacity-50\" })\n            ]),\n            _: 1\n          })\n        ]),\n        _: 3\n      }, 16, [\"class\"]);\n    };\n  }\n});\n",
+      "start": 1709267491777,
+      "end": 1709267491784,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/runner/work/Antil_test/Antil_test/components/ui/select/SelectTrigger.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, renderSlot as _renderSlot, createVNode as _createVNode, withCtx as _withCtx, mergeProps as _mergeProps, openBlock as _openBlock, createBlock as _createBlock } from \"vue\"\n\nimport { type HTMLAttributes, computed } from 'vue'\nimport { SelectIcon, SelectTrigger, type SelectTriggerProps, useForwardProps } from 'radix-vue'\nimport { ChevronDown } from 'lucide-vue-next'\nimport { cn } from '@/lib/utils'\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'SelectTrigger',\n  props: {\n    disabled: { type: Boolean },\n    asChild: { type: Boolean },\n    as: {},\n    class: {}\n  },\n  setup(__props: any) {\n\nconst props = __props\n\nconst delegatedProps = computed(() => {\n  const { class: _, ...delegated } = props\n\n  return delegated\n})\n\nconst forwardedProps = useForwardProps(delegatedProps)\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createBlock(_unref(SelectTrigger), _mergeProps(_unref(forwardedProps), {\n    class: _unref(cn)(\n      'flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1',\n      props.class,\n    )\n  }), {\n    default: _withCtx(() => [\n      _renderSlot(_ctx.$slots, \"default\"),\n      _createVNode(_unref(SelectIcon), { \"as-child\": \"\" }, {\n        default: _withCtx(() => [\n          _createVNode(_unref(ChevronDown), { class: \"w-4 h-4 opacity-50\" })\n        ]),\n        _: 1\n      })\n    ]),\n    _: 3\n  }, 16, [\"class\"]))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,SAAS,QAAQ,cAAc,aAAa,eAAe,cAAc,WAAW,UAAU,cAAc,aAAa,aAAa,YAAY,eAAe,oBAAoB;AAE9L,SAA8B,gBAAgB;AAC9C,SAAS,YAAY,eAAwC,uBAAuB;AACpF,SAAS,mBAAmB;AAC5B,SAAS,UAAU;AAGnB,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,OAAO;AAAA,IACL,UAAU,EAAE,MAAM,QAAQ;AAAA,IAC1B,SAAS,EAAE,MAAM,QAAQ;AAAA,IACzB,IAAI,CAAC;AAAA,IACL,OAAO,CAAC;AAAA,EACV;AAAA,EACA,MAAM,SAAc;AAEtB,UAAM,QAAQ;AAEd,UAAM,iBAAiB,SAAS,MAAM;AACpC,YAAM,EAAE,OAAO,GAAG,GAAG,UAAU,IAAI;AAEnC,aAAO;AAAA,IACT,CAAC;AAED,UAAM,iBAAiB,gBAAgB,cAAc;AAErD,WAAO,CAAC,MAAU,WAAgB;AAChC,aAAQ,WAAW,GAAG,aAAa,OAAO,aAAa,GAAG,YAAY,OAAO,cAAc,GAAG;AAAA,QAC5F,OAAO,OAAO,EAAE;AAAA,UACd;AAAA,UACA,MAAM;AAAA,QACR;AAAA,MACF,CAAC,GAAG;AAAA,QACF,SAAS,SAAS,MAAM;AAAA,UACtB,YAAY,KAAK,QAAQ,SAAS;AAAA,UAClC,aAAa,OAAO,UAAU,GAAG,EAAE,YAAY,GAAG,GAAG;AAAA,YACnD,SAAS,SAAS,MAAM;AAAA,cACtB,aAAa,OAAO,WAAW,GAAG,EAAE,OAAO,qBAAqB,CAAC;AAAA,YACnE,CAAC;AAAA,YACD,GAAG;AAAA,UACL,CAAC;AAAA,QACH,CAAC;AAAA,QACD,GAAG;AAAA,MACL,GAAG,IAAI,CAAC,OAAO,CAAC;AAAA,IAClB;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1709267491784,
+      "end": 1709267491784,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709267491784,
+      "end": 1709267491784,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1709267491784,
+      "end": 1709267491784,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709267491784,
+      "end": 1709267491785,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267491785,
+      "end": 1709267491785,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709267491785,
+      "end": 1709267491785,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1709267491785,
+      "end": 1709267491785,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709267491785,
+      "end": 1709267491785,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267491785,
+      "end": 1709267491785,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709267491785,
+      "end": 1709267491785,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709267491785,
+      "end": 1709267491785,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709267491785,
+      "end": 1709267491785,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709267491785,
+      "end": 1709267491785,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709267491785,
+      "end": 1709267491785,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709267491785,
+      "end": 1709267491785,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709267491785,
+      "end": 1709267491785,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709267491785,
+      "end": 1709267491785,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709267491785,
+      "end": 1709267491785,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709267491785,
+      "end": 1709267491786,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709267491786,
+      "end": 1709267491788,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709267491788,
+      "end": 1709267491789,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709267491789,
+      "end": 1709267491789,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1709267491789,
+      "end": 1709267491789,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1709267491789,
+      "end": 1709267491789,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709267491789,
+      "end": 1709267491789,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709267491790,
+      "end": 1709267491790,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709267491790,
+      "end": 1709267491790,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709267491790,
+      "end": 1709267491790,
+      "order": "normal"
+    }
+  ]
+}
