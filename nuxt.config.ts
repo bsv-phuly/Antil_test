@@ -9,7 +9,6 @@ export default defineNuxtConfig({
     'nuxt-typed-router',
     '@nuxtjs/tailwindcss',
     'shadcn-nuxt',
-    '@nuxtjs/axios'
   ],
   shadcn: {
     /**
