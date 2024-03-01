@@ -1,6 +1,0 @@
-const login_vue_vue_type_style_index_0_scoped_1c8c5ad4_lang = ".login-layout[data-v-1c8c5ad4]{align-items:center;display:flex;justify-content:center;min-height:calc(100vh - 56px)}.login-layout .login-form[data-v-1c8c5ad4]{align-items:center;background-color:#fff;border:1px solid #d9e0e8;box-shadow:0 1px 4px 0 rgba(0,0,0,.08);display:flex;flex-direction:column;gap:32px;padding:24px 48px;width:439px}.login-layout .input-layout[data-v-1c8c5ad4]{display:flex;flex-direction:column;gap:24px;width:100%}.login-layout .input-layout .label-input[data-v-1c8c5ad4]{display:flex;flex-direction:column;gap:12px}.login-layout .input-layout .label-input .label[data-v-1c8c5ad4]{color:#08121a;font-family:Hiragino Sans;font-size:14px;font-style:normal;font-weight:600;line-height:140%}.login-layout .title[data-v-1c8c5ad4]{font-weight:400;margin-top:16px}.login-layout .link-text[data-v-1c8c5ad4],.login-layout .title[data-v-1c8c5ad4]{font-family:Helvetica Neue;font-size:14px;font-style:normal;line-height:120%}.login-layout .link-text[data-v-1c8c5ad4]{color:#ff7800;font-weight:700;gap:4px}";
-
-const loginStyles_DDPLfyxz = [login_vue_vue_type_style_index_0_scoped_1c8c5ad4_lang];
-
-export { loginStyles_DDPLfyxz as default };
-//# sourceMappingURL=login-styles.DDPLfyxz.mjs.map
