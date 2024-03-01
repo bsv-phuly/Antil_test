@@ -23,5 +23,5 @@ jobs:
       with:
         token: ${{ secrets.TOKEN_GITHUB }}
         ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
-        branch: develop
+        branch: gh-pages
         folder: .nuxt
