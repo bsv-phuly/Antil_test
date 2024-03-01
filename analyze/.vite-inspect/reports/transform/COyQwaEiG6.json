@@ -1,0 +1,221 @@
+{
+  "resolvedId": "/home/runner/work/Antil_test/Antil_test/components/ui/select/SelectScrollUpButton.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, renderSlot as _renderSlot, createVNode as _createVNode, mergeProps as _mergeProps, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\"\n\nimport { type HTMLAttributes, computed } from 'vue'\nimport { SelectScrollUpButton, type SelectScrollUpButtonProps, useForwardProps } from 'radix-vue'\nimport { ChevronUp } from 'lucide-vue-next'\nimport { cn } from '@/lib/utils'\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'SelectScrollUpButton',\n  props: {\n    asChild: { type: Boolean },\n    as: {},\n    class: {}\n  },\n  setup(__props: any) {\n\nconst props = __props\n\nconst delegatedProps = computed(() => {\n  const { class: _, ...delegated } = props\n\n  return delegated\n})\n\nconst forwardedProps = useForwardProps(delegatedProps)\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createBlock(_unref(SelectScrollUpButton), _mergeProps(_unref(forwardedProps), {\n    class: _unref(cn)('flex cursor-default items-center justify-center py-1', props.class)\n  }), {\n    default: _withCtx(() => [\n      _renderSlot(_ctx.$slots, \"default\", {}, () => [\n        _createVNode(_unref(ChevronUp), { class: \"h-4 w-4\" })\n      ])\n    ]),\n    _: 3\n  }, 16, [\"class\"]))\n}\n}\n\n})",
+      "start": 1709267031234,
+      "end": 1709267031234
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709267031234,
+      "end": 1709267031234,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709267031234,
+      "end": 1709267031234,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709267031234,
+      "end": 1709267031234,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709267031234,
+      "end": 1709267031234,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, renderSlot as _renderSlot, createVNode as _createVNode, mergeProps as _mergeProps, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\";\nimport { computed } from \"vue\";\nimport { SelectScrollUpButton, useForwardProps } from \"radix-vue\";\nimport { ChevronUp } from \"lucide-vue-next\";\nimport { cn } from \"@/lib/utils\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"SelectScrollUpButton\",\n  props: {\n    asChild: { type: Boolean },\n    as: {},\n    class: {}\n  },\n  setup(__props) {\n    const props = __props;\n    const delegatedProps = computed(() => {\n      const { class: _, ...delegated } = props;\n      return delegated;\n    });\n    const forwardedProps = useForwardProps(delegatedProps);\n    return (_ctx, _cache) => {\n      return _openBlock(), _createBlock(_unref(SelectScrollUpButton), _mergeProps(_unref(forwardedProps), {\n        class: _unref(cn)(\"flex cursor-default items-center justify-center py-1\", props.class)\n      }), {\n        default: _withCtx(() => [\n          _renderSlot(_ctx.$slots, \"default\", {}, () => [\n            _createVNode(_unref(ChevronUp), { class: \"h-4 w-4\" })\n          ])\n        ]),\n        _: 3\n      }, 16, [\"class\"]);\n    };\n  }\n});\n",
+      "start": 1709267031234,
+      "end": 1709267031237,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/runner/work/Antil_test/Antil_test/components/ui/select/SelectScrollUpButton.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, renderSlot as _renderSlot, createVNode as _createVNode, mergeProps as _mergeProps, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\"\n\nimport { type HTMLAttributes, computed } from 'vue'\nimport { SelectScrollUpButton, type SelectScrollUpButtonProps, useForwardProps } from 'radix-vue'\nimport { ChevronUp } from 'lucide-vue-next'\nimport { cn } from '@/lib/utils'\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'SelectScrollUpButton',\n  props: {\n    asChild: { type: Boolean },\n    as: {},\n    class: {}\n  },\n  setup(__props: any) {\n\nconst props = __props\n\nconst delegatedProps = computed(() => {\n  const { class: _, ...delegated } = props\n\n  return delegated\n})\n\nconst forwardedProps = useForwardProps(delegatedProps)\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createBlock(_unref(SelectScrollUpButton), _mergeProps(_unref(forwardedProps), {\n    class: _unref(cn)('flex cursor-default items-center justify-center py-1', props.class)\n  }), {\n    default: _withCtx(() => [\n      _renderSlot(_ctx.$slots, \"default\", {}, () => [\n        _createVNode(_unref(ChevronUp), { class: \"h-4 w-4\" })\n      ])\n    ]),\n    _: 3\n  }, 16, [\"class\"]))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,SAAS,QAAQ,cAAc,aAAa,eAAe,cAAc,cAAc,aAAa,WAAW,UAAU,aAAa,YAAY,eAAe,oBAAoB;AAE9L,SAA8B,gBAAgB;AAC9C,SAAS,sBAAsD,uBAAuB;AACtF,SAAS,iBAAiB;AAC1B,SAAS,UAAU;AAGnB,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,OAAO;AAAA,IACL,SAAS,EAAE,MAAM,QAAQ;AAAA,IACzB,IAAI,CAAC;AAAA,IACL,OAAO,CAAC;AAAA,EACV;AAAA,EACA,MAAM,SAAc;AAEtB,UAAM,QAAQ;AAEd,UAAM,iBAAiB,SAAS,MAAM;AACpC,YAAM,EAAE,OAAO,GAAG,GAAG,UAAU,IAAI;AAEnC,aAAO;AAAA,IACT,CAAC;AAED,UAAM,iBAAiB,gBAAgB,cAAc;AAErD,WAAO,CAAC,MAAU,WAAgB;AAChC,aAAQ,WAAW,GAAG,aAAa,OAAO,oBAAoB,GAAG,YAAY,OAAO,cAAc,GAAG;AAAA,QACnG,OAAO,OAAO,EAAE,EAAE,wDAAwD,MAAM,KAAK;AAAA,MACvF,CAAC,GAAG;AAAA,QACF,SAAS,SAAS,MAAM;AAAA,UACtB,YAAY,KAAK,QAAQ,WAAW,CAAC,GAAG,MAAM;AAAA,YAC5C,aAAa,OAAO,SAAS,GAAG,EAAE,OAAO,UAAU,CAAC;AAAA,UACtD,CAAC;AAAA,QACH,CAAC;AAAA,QACD,GAAG;AAAA,MACL,GAAG,IAAI,CAAC,OAAO,CAAC;AAAA,IAClB;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1709267031237,
+      "end": 1709267031237,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709267031237,
+      "end": 1709267031237,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1709267031237,
+      "end": 1709267031237,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709267031238,
+      "end": 1709267031238,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267031238,
+      "end": 1709267031238,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709267031238,
+      "end": 1709267031238,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1709267031238,
+      "end": 1709267031238,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709267031238,
+      "end": 1709267031238,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267031238,
+      "end": 1709267031238,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709267031238,
+      "end": 1709267031238,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709267031239,
+      "end": 1709267031239,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709267031239,
+      "end": 1709267031239,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709267031239,
+      "end": 1709267031239,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709267031239,
+      "end": 1709267031239,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709267031239,
+      "end": 1709267031239,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709267031239,
+      "end": 1709267031239,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709267031239,
+      "end": 1709267031239,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709267031239,
+      "end": 1709267031239,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709267031239,
+      "end": 1709267031239,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709267031240,
+      "end": 1709267031246,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709267031246,
+      "end": 1709267031246,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709267031246,
+      "end": 1709267031246,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1709267031246,
+      "end": 1709267031247,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1709267031247,
+      "end": 1709267031247,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709267031247,
+      "end": 1709267031247,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709267031247,
+      "end": 1709267031247,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709267031247,
+      "end": 1709267031248,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709267031248,
+      "end": 1709267031248,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "resolvedId": "/home/runner/work/Antil_test/Antil_test/components/ui/select/SelectLabel.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, renderSlot as _renderSlot, normalizeClass as _normalizeClass, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\"\n\nimport type { HTMLAttributes } from 'vue'\nimport { SelectLabel, type SelectLabelProps } from 'radix-vue'\nimport { cn } from '@/lib/utils'\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'SelectLabel',\n  props: {\n    for: {},\n    asChild: { type: Boolean },\n    as: {},\n    class: {}\n  },\n  setup(__props: any) {\n\nconst props = __props\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createBlock(_unref(SelectLabel), {\n    class: _normalizeClass(_unref(cn)('py-1.5 pl-8 pr-2 text-sm font-semibold', props.class))\n  }, {\n    default: _withCtx(() => [\n      _renderSlot(_ctx.$slots, \"default\")\n    ]),\n    _: 3\n  }, 8, [\"class\"]))\n}\n}\n\n})",
+      "start": 1709267031236,
+      "end": 1709267031236
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709267031236,
+      "end": 1709267031236,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709267031236,
+      "end": 1709267031236,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709267031236,
+      "end": 1709267031236,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709267031236,
+      "end": 1709267031236,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, renderSlot as _renderSlot, normalizeClass as _normalizeClass, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\";\nimport { SelectLabel } from \"radix-vue\";\nimport { cn } from \"@/lib/utils\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"SelectLabel\",\n  props: {\n    for: {},\n    asChild: { type: Boolean },\n    as: {},\n    class: {}\n  },\n  setup(__props) {\n    const props = __props;\n    return (_ctx, _cache) => {\n      return _openBlock(), _createBlock(_unref(SelectLabel), {\n        class: _normalizeClass(_unref(cn)(\"py-1.5 pl-8 pr-2 text-sm font-semibold\", props.class))\n      }, {\n        default: _withCtx(() => [\n          _renderSlot(_ctx.$slots, \"default\")\n        ]),\n        _: 3\n      }, 8, [\"class\"]);\n    };\n  }\n});\n",
+      "start": 1709267031236,
+      "end": 1709267031254,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/runner/work/Antil_test/Antil_test/components/ui/select/SelectLabel.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, renderSlot as _renderSlot, normalizeClass as _normalizeClass, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\"\n\nimport type { HTMLAttributes } from 'vue'\nimport { SelectLabel, type SelectLabelProps } from 'radix-vue'\nimport { cn } from '@/lib/utils'\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'SelectLabel',\n  props: {\n    for: {},\n    asChild: { type: Boolean },\n    as: {},\n    class: {}\n  },\n  setup(__props: any) {\n\nconst props = __props\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createBlock(_unref(SelectLabel), {\n    class: _normalizeClass(_unref(cn)('py-1.5 pl-8 pr-2 text-sm font-semibold', props.class))\n  }, {\n    default: _withCtx(() => [\n      _renderSlot(_ctx.$slots, \"default\")\n    ]),\n    _: 3\n  }, 8, [\"class\"]))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,SAAS,QAAQ,cAAc,aAAa,kBAAkB,iBAAiB,WAAW,UAAU,aAAa,YAAY,eAAe,oBAAoB;AAGzK,SAAS,mBAA0C;AACnD,SAAS,UAAU;AAGnB,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,OAAO;AAAA,IACL,KAAK,CAAC;AAAA,IACN,SAAS,EAAE,MAAM,QAAQ;AAAA,IACzB,IAAI,CAAC;AAAA,IACL,OAAO,CAAC;AAAA,EACV;AAAA,EACA,MAAM,SAAc;AAEtB,UAAM,QAAQ;AAEd,WAAO,CAAC,MAAU,WAAgB;AAChC,aAAQ,WAAW,GAAG,aAAa,OAAO,WAAW,GAAG;AAAA,QACtD,OAAO,gBAAgB,OAAO,EAAE,EAAE,0CAA0C,MAAM,KAAK,CAAC;AAAA,MAC1F,GAAG;AAAA,QACD,SAAS,SAAS,MAAM;AAAA,UACtB,YAAY,KAAK,QAAQ,SAAS;AAAA,QACpC,CAAC;AAAA,QACD,GAAG;AAAA,MACL,GAAG,GAAG,CAAC,OAAO,CAAC;AAAA,IACjB;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1709267031254,
+      "end": 1709267031254,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709267031254,
+      "end": 1709267031254,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1709267031254,
+      "end": 1709267031254,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709267031254,
+      "end": 1709267031254,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267031254,
+      "end": 1709267031254,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709267031254,
+      "end": 1709267031254,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1709267031254,
+      "end": 1709267031254,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709267031254,
+      "end": 1709267031255,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267031255,
+      "end": 1709267031255,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709267031255,
+      "end": 1709267031255,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709267031255,
+      "end": 1709267031255,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709267031255,
+      "end": 1709267031255,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709267031255,
+      "end": 1709267031255,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709267031255,
+      "end": 1709267031255,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709267031255,
+      "end": 1709267031255,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709267031255,
+      "end": 1709267031255,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709267031255,
+      "end": 1709267031255,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709267031255,
+      "end": 1709267031255,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709267031255,
+      "end": 1709267031255,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709267031255,
+      "end": 1709267031257,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709267031257,
+      "end": 1709267031257,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709267031257,
+      "end": 1709267031257,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1709267031258,
+      "end": 1709267031258,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1709267031258,
+      "end": 1709267031258,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709267031258,
+      "end": 1709267031258,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709267031258,
+      "end": 1709267031258,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709267031258,
+      "end": 1709267031258,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709267031258,
+      "end": 1709267031258,
+      "order": "normal"
+    }
+  ]
+}

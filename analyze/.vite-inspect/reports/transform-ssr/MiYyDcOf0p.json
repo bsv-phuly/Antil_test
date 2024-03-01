@@ -1,0 +1,268 @@
+{
+  "resolvedId": "/home/runner/work/Antil_test/Antil_test/components/ui/sonner/Sonner.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent } from \"vue/server-renderer\"\n\nimport { Toaster as Sonner, type ToasterProps } from 'vue-sonner'\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Sonner',\n  __ssrInlineRender: true,\n  props: {\n    invert: { type: Boolean },\n    theme: {},\n    position: {},\n    hotkey: {},\n    richColors: { type: Boolean },\n    expand: { type: Boolean },\n    duration: {},\n    gap: {},\n    visibleToasts: {},\n    closeButton: { type: Boolean },\n    toastOptions: {},\n    className: {},\n    style: {},\n    offset: {},\n    dir: {},\n    containerAriaLabel: {},\n    pauseWhenPageIsHidden: { type: Boolean },\n    cn: { type: Function }\n  },\n  setup(__props: any) {\n\nconst props = __props\n\nreturn (_ctx: any,_push: any,_parent: any,_attrs: any) => {\n  _push(_ssrRenderComponent(_unref(Sonner), _mergeProps({\n    class: \"toaster group\",\n    \"class-names\": {\n      toast:\n        'group toast group-[.toaster]:bg-background group-[.toaster]:text-foreground group-[.toaster]:border-border group-[.toaster]:shadow-lg',\n      description: 'group-[.toast]:text-muted-foreground',\n      actionButton:\n        'group-[.toast]:bg-primary group-[.toast]:text-primary-foreground',\n      cancelButton:\n        'group-[.toast]:bg-muted group-[.toast]:text-muted-foreground',\n    }\n  }, props, _attrs), null, _parent))\n}\n}\n\n})",
+      "start": 1709267042726,
+      "end": 1709267042726,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/runner/work/Antil_test/Antil_test/components/ui/sonner/Sonner.vue"
+        ],
+        "sourcesContent": [
+          "<script lang=\"ts\" setup>\nimport { Toaster as Sonner, type ToasterProps } from 'vue-sonner'\n\nconst props = defineProps<ToasterProps>()\n</script>\n\n<template>\n  <Sonner\n    class=\"toaster group\"\n    :class-names=\"{\n      toast:\n        'group toast group-[.toaster]:bg-background group-[.toaster]:text-foreground group-[.toaster]:border-border group-[.toaster]:shadow-lg',\n      description: 'group-[.toast]:text-muted-foreground',\n      actionButton:\n        'group-[.toast]:bg-primary group-[.toast]:text-primary-foreground',\n      cancelButton:\n        'group-[.toast]:bg-muted group-[.toast]:text-muted-foreground',\n    }\"\n    v-bind=\"props\"\n  />\n</template>\n"
+        ],
+        "names": [],
+        "mappings": ";;;;AACA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjE;;;;;;;;;;;;;;;;;;;;;;;;;;AAFwB;AAGxB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,OAA2B;;;;;;;;;;;;;;;;;;"
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709267042726,
+      "end": 1709267042726,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709267042726,
+      "end": 1709267042726,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709267042726,
+      "end": 1709267042726,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709267042726,
+      "end": 1709267042726,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709267042726,
+      "end": 1709267042726,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709267042726,
+      "end": 1709267042726,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderComponent as _ssrRenderComponent } from \"vue/server-renderer\";\nimport { Toaster as Sonner } from \"vue-sonner\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Sonner\",\n  __ssrInlineRender: true,\n  props: {\n    invert: { type: Boolean },\n    theme: {},\n    position: {},\n    hotkey: {},\n    richColors: { type: Boolean },\n    expand: { type: Boolean },\n    duration: {},\n    gap: {},\n    visibleToasts: {},\n    closeButton: { type: Boolean },\n    toastOptions: {},\n    className: {},\n    style: {},\n    offset: {},\n    dir: {},\n    containerAriaLabel: {},\n    pauseWhenPageIsHidden: { type: Boolean },\n    cn: { type: Function }\n  },\n  setup(__props) {\n    const props = __props;\n    return (_ctx, _push, _parent, _attrs) => {\n      _push(_ssrRenderComponent(_unref(Sonner), _mergeProps({\n        class: \"toaster group\",\n        \"class-names\": {\n          toast: \"group toast group-[.toaster]:bg-background group-[.toaster]:text-foreground group-[.toaster]:border-border group-[.toaster]:shadow-lg\",\n          description: \"group-[.toast]:text-muted-foreground\",\n          actionButton: \"group-[.toast]:bg-primary group-[.toast]:text-primary-foreground\",\n          cancelButton: \"group-[.toast]:bg-muted group-[.toast]:text-muted-foreground\"\n        }\n      }, props, _attrs), null, _parent));\n    };\n  }\n});\n",
+      "start": 1709267042726,
+      "end": 1709267042741,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/runner/work/Antil_test/Antil_test/components/ui/sonner/Sonner.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent } from \"vue/server-renderer\"\n\nimport { Toaster as Sonner, type ToasterProps } from 'vue-sonner'\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Sonner',\n  __ssrInlineRender: true,\n  props: {\n    invert: { type: Boolean },\n    theme: {},\n    position: {},\n    hotkey: {},\n    richColors: { type: Boolean },\n    expand: { type: Boolean },\n    duration: {},\n    gap: {},\n    visibleToasts: {},\n    closeButton: { type: Boolean },\n    toastOptions: {},\n    className: {},\n    style: {},\n    offset: {},\n    dir: {},\n    containerAriaLabel: {},\n    pauseWhenPageIsHidden: { type: Boolean },\n    cn: { type: Function }\n  },\n  setup(__props: any) {\n\nconst props = __props\n\nreturn (_ctx: any,_push: any,_parent: any,_attrs: any) => {\n  _push(_ssrRenderComponent(_unref(Sonner), _mergeProps({\n    class: \"toaster group\",\n    \"class-names\": {\n      toast:\n        'group toast group-[.toaster]:bg-background group-[.toaster]:text-foreground group-[.toaster]:border-border group-[.toaster]:shadow-lg',\n      description: 'group-[.toast]:text-muted-foreground',\n      actionButton:\n        'group-[.toast]:bg-primary group-[.toast]:text-primary-foreground',\n      cancelButton:\n        'group-[.toast]:bg-muted group-[.toast]:text-muted-foreground',\n    }\n  }, props, _attrs), null, _parent))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,SAAS,QAAQ,cAAc,mBAAmB;AAC3D,SAAS,sBAAsB,2BAA2B;AAE1D,SAAS,WAAW,cAAiC;AAGrD,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,mBAAmB;AAAA,EACnB,OAAO;AAAA,IACL,QAAQ,EAAE,MAAM,QAAQ;AAAA,IACxB,OAAO,CAAC;AAAA,IACR,UAAU,CAAC;AAAA,IACX,QAAQ,CAAC;AAAA,IACT,YAAY,EAAE,MAAM,QAAQ;AAAA,IAC5B,QAAQ,EAAE,MAAM,QAAQ;AAAA,IACxB,UAAU,CAAC;AAAA,IACX,KAAK,CAAC;AAAA,IACN,eAAe,CAAC;AAAA,IAChB,aAAa,EAAE,MAAM,QAAQ;AAAA,IAC7B,cAAc,CAAC;AAAA,IACf,WAAW,CAAC;AAAA,IACZ,OAAO,CAAC;AAAA,IACR,QAAQ,CAAC;AAAA,IACT,KAAK,CAAC;AAAA,IACN,oBAAoB,CAAC;AAAA,IACrB,uBAAuB,EAAE,MAAM,QAAQ;AAAA,IACvC,IAAI,EAAE,MAAM,SAAS;AAAA,EACvB;AAAA,EACA,MAAM,SAAc;AAEtB,UAAM,QAAQ;AAEd,WAAO,CAAC,MAAU,OAAW,SAAa,WAAgB;AACxD,YAAM,oBAAoB,OAAO,MAAM,GAAG,YAAY;AAAA,QACpD,OAAO;AAAA,QACP,eAAe;AAAA,UACb,OACE;AAAA,UACF,aAAa;AAAA,UACb,cACE;AAAA,UACF,cACE;AAAA,QACJ;AAAA,MACF,GAAG,OAAO,MAAM,GAAG,MAAM,OAAO,CAAC;AAAA,IACnC;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1709267042741,
+      "end": 1709267042741,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709267042741,
+      "end": 1709267042741,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1709267042741,
+      "end": 1709267042741,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709267042741,
+      "end": 1709267042741,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267042741,
+      "end": 1709267042741,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267042741,
+      "end": 1709267042741,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709267042741,
+      "end": 1709267042741,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709267042741,
+      "end": 1709267042741,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709267042741,
+      "end": 1709267042741,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267042742,
+      "end": 1709267042742,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709267042742,
+      "end": 1709267042743,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709267042743,
+      "end": 1709267042744,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709267042744,
+      "end": 1709267042744,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709267042744,
+      "end": 1709267042744,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709267042744,
+      "end": 1709267042744,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709267042744,
+      "end": 1709267042744,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709267042744,
+      "end": 1709267042744,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709267042744,
+      "end": 1709267042744,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709267042745,
+      "end": 1709267042745,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709267042745,
+      "end": 1709267042745,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709267042745,
+      "end": 1709267042745,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709267042745,
+      "end": 1709267042752,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709267042745,
+      "end": 1709267042752,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709267042752,
+      "end": 1709267042752,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709267042752,
+      "end": 1709267042752,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709267042752,
+      "end": 1709267042752,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709267042752,
+      "end": 1709267042752,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1709267042752,
+      "end": 1709267042752,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709267042752,
+      "end": 1709267042752,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709267042753,
+      "end": 1709267042753,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709267042754,
+      "end": 1709267042754,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709267042754,
+      "end": 1709267042754,
+      "order": "normal"
+    }
+  ]
+}

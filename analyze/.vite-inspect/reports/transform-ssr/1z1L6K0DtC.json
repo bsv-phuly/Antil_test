@@ -1,0 +1,258 @@
+{
+  "resolvedId": "/home/runner/work/Antil_test/Antil_test/components/ui/button/index.ts",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { type VariantProps, cva } from 'class-variance-authority'\n\nexport { default as Button } from './Button.vue'\n\nexport const buttonVariants = cva(\n  'inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50',\n  {\n    variants: {\n      variant: {\n        default: 'bg-primary text-primary-foreground hover:bg-primary/90',\n        destructive:\n          'bg-destructive text-destructive-foreground hover:bg-destructive/90',\n        outline:\n          'border border-input bg-background hover:bg-accent hover:text-accent-foreground',\n        secondary:\n          'bg-secondary text-secondary-foreground hover:bg-secondary/80',\n        ghost: 'hover:bg-accent hover:text-accent-foreground',\n        link: 'text-primary underline-offset-4 hover:underline',\n      },\n      size: {\n        default: 'h-10 px-4 py-2',\n        sm: 'h-9 rounded-md px-3',\n        lg: 'h-11 rounded-md px-8',\n        icon: 'h-10 w-10',\n      },\n    },\n    defaultVariants: {\n      variant: 'default',\n      size: 'default',\n    },\n  },\n)\n\nexport type ButtonVariants = VariantProps<typeof buttonVariants>\n",
+      "start": 1709267040141,
+      "end": 1709267040772,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709267040772,
+      "end": 1709267040772,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709267040772,
+      "end": 1709267040772,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709267040772,
+      "end": 1709267040772,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709267040772,
+      "end": 1709267040772,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709267040772,
+      "end": 1709267040772,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709267040772,
+      "end": 1709267040772,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { cva } from \"class-variance-authority\";\nexport { default as Button } from \"./Button.vue\";\nexport const buttonVariants = cva(\n  \"inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\",\n  {\n    variants: {\n      variant: {\n        default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n        destructive: \"bg-destructive text-destructive-foreground hover:bg-destructive/90\",\n        outline: \"border border-input bg-background hover:bg-accent hover:text-accent-foreground\",\n        secondary: \"bg-secondary text-secondary-foreground hover:bg-secondary/80\",\n        ghost: \"hover:bg-accent hover:text-accent-foreground\",\n        link: \"text-primary underline-offset-4 hover:underline\"\n      },\n      size: {\n        default: \"h-10 px-4 py-2\",\n        sm: \"h-9 rounded-md px-3\",\n        lg: \"h-11 rounded-md px-8\",\n        icon: \"h-10 w-10\"\n      }\n    },\n    defaultVariants: {\n      variant: \"default\",\n      size: \"default\"\n    }\n  }\n);\n",
+      "start": 1709267040772,
+      "end": 1709267040820,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/runner/work/Antil_test/Antil_test/components/ui/button/index.ts"
+        ],
+        "sourcesContent": [
+          "import { type VariantProps, cva } from 'class-variance-authority'\n\nexport { default as Button } from './Button.vue'\n\nexport const buttonVariants = cva(\n  'inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50',\n  {\n    variants: {\n      variant: {\n        default: 'bg-primary text-primary-foreground hover:bg-primary/90',\n        destructive:\n          'bg-destructive text-destructive-foreground hover:bg-destructive/90',\n        outline:\n          'border border-input bg-background hover:bg-accent hover:text-accent-foreground',\n        secondary:\n          'bg-secondary text-secondary-foreground hover:bg-secondary/80',\n        ghost: 'hover:bg-accent hover:text-accent-foreground',\n        link: 'text-primary underline-offset-4 hover:underline',\n      },\n      size: {\n        default: 'h-10 px-4 py-2',\n        sm: 'h-9 rounded-md px-3',\n        lg: 'h-11 rounded-md px-8',\n        icon: 'h-10 w-10',\n      },\n    },\n    defaultVariants: {\n      variant: 'default',\n      size: 'default',\n    },\n  },\n)\n\nexport type ButtonVariants = VariantProps<typeof buttonVariants>\n"
+        ],
+        "mappings": "AAAA,SAA4B,WAAW;AAEvC,SAAS,WAAW,cAAc;AAE3B,aAAM,iBAAiB;AAAA,EAC5B;AAAA,EACA;AAAA,IACE,UAAU;AAAA,MACR,SAAS;AAAA,QACP,SAAS;AAAA,QACT,aACE;AAAA,QACF,SACE;AAAA,QACF,WACE;AAAA,QACF,OAAO;AAAA,QACP,MAAM;AAAA,MACR;AAAA,MACA,MAAM;AAAA,QACJ,SAAS;AAAA,QACT,IAAI;AAAA,QACJ,IAAI;AAAA,QACJ,MAAM;AAAA,MACR;AAAA,IACF;AAAA,IACA,iBAAiB;AAAA,MACf,SAAS;AAAA,MACT,MAAM;AAAA,IACR;AAAA,EACF;AACF;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1709267040820,
+      "end": 1709267040820,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709267040820,
+      "end": 1709267040820,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1709267040820,
+      "end": 1709267040820,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709267040820,
+      "end": 1709267040820,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267040820,
+      "end": 1709267040820,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267040820,
+      "end": 1709267040820,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709267040820,
+      "end": 1709267040820,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709267040820,
+      "end": 1709267040820,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709267040820,
+      "end": 1709267040820,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267040820,
+      "end": 1709267040820,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709267040820,
+      "end": 1709267040820,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709267040820,
+      "end": 1709267040820,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709267040820,
+      "end": 1709267040820,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709267040820,
+      "end": 1709267040820,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709267040820,
+      "end": 1709267040820,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709267040820,
+      "end": 1709267040820,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709267040820,
+      "end": 1709267040820,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709267040820,
+      "end": 1709267040820,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709267040820,
+      "end": 1709267040820,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709267040820,
+      "end": 1709267040820,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709267040820,
+      "end": 1709267040820,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709267040820,
+      "end": 1709267040822,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709267040820,
+      "end": 1709267040822,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709267040822,
+      "end": 1709267040822,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709267040822,
+      "end": 1709267040822,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709267040822,
+      "end": 1709267040822,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709267040822,
+      "end": 1709267040822,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1709267040822,
+      "end": 1709267040822,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709267040822,
+      "end": 1709267040822,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709267040822,
+      "end": 1709267040822,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709267040822,
+      "end": 1709267040822,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709267040822,
+      "end": 1709267040822,
+      "order": "normal"
+    }
+  ]
+}

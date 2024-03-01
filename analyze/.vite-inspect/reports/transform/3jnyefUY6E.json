@@ -1,0 +1,221 @@
+{
+  "resolvedId": "/home/runner/work/Antil_test/Antil_test/components/ui/button/Button.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, renderSlot as _renderSlot, normalizeClass as _normalizeClass, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\"\n\nimport type { HTMLAttributes } from 'vue'\nimport { Primitive, type PrimitiveProps } from 'radix-vue'\nimport { type ButtonVariants, buttonVariants } from '.'\nimport { cn } from '@/lib/utils'\n\ninterface Props extends PrimitiveProps {\n  variant?: ButtonVariants['variant']\n  size?: ButtonVariants['size']\n  as?: string\n  class?: HTMLAttributes['class']\n}\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Button',\n  props: {\n    variant: {},\n    size: {},\n    as: { default: 'button' },\n    class: {},\n    asChild: { type: Boolean }\n  },\n  setup(__props: any) {\n\nconst props = __props\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createBlock(_unref(Primitive), {\n    as: _ctx.as,\n    \"as-child\": _ctx.asChild,\n    class: _normalizeClass(_unref(cn)(_unref(buttonVariants)({ variant: _ctx.variant, size: _ctx.size }), props.class))\n  }, {\n    default: _withCtx(() => [\n      _renderSlot(_ctx.$slots, \"default\")\n    ]),\n    _: 3\n  }, 8, [\"as\", \"as-child\", \"class\"]))\n}\n}\n\n})",
+      "start": 1709267031233,
+      "end": 1709267031233
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709267031233,
+      "end": 1709267031233,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709267031233,
+      "end": 1709267031233,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709267031233,
+      "end": 1709267031233,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709267031233,
+      "end": 1709267031233,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, renderSlot as _renderSlot, normalizeClass as _normalizeClass, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\";\nimport { Primitive } from \"radix-vue\";\nimport { buttonVariants } from \".\";\nimport { cn } from \"@/lib/utils\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Button\",\n  props: {\n    variant: {},\n    size: {},\n    as: { default: \"button\" },\n    class: {},\n    asChild: { type: Boolean }\n  },\n  setup(__props) {\n    const props = __props;\n    return (_ctx, _cache) => {\n      return _openBlock(), _createBlock(_unref(Primitive), {\n        as: _ctx.as,\n        \"as-child\": _ctx.asChild,\n        class: _normalizeClass(_unref(cn)(_unref(buttonVariants)({ variant: _ctx.variant, size: _ctx.size }), props.class))\n      }, {\n        default: _withCtx(() => [\n          _renderSlot(_ctx.$slots, \"default\")\n        ]),\n        _: 3\n      }, 8, [\"as\", \"as-child\", \"class\"]);\n    };\n  }\n});\n",
+      "start": 1709267031233,
+      "end": 1709267031237,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/runner/work/Antil_test/Antil_test/components/ui/button/Button.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, renderSlot as _renderSlot, normalizeClass as _normalizeClass, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\"\n\nimport type { HTMLAttributes } from 'vue'\nimport { Primitive, type PrimitiveProps } from 'radix-vue'\nimport { type ButtonVariants, buttonVariants } from '.'\nimport { cn } from '@/lib/utils'\n\ninterface Props extends PrimitiveProps {\n  variant?: ButtonVariants['variant']\n  size?: ButtonVariants['size']\n  as?: string\n  class?: HTMLAttributes['class']\n}\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Button',\n  props: {\n    variant: {},\n    size: {},\n    as: { default: 'button' },\n    class: {},\n    asChild: { type: Boolean }\n  },\n  setup(__props: any) {\n\nconst props = __props\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createBlock(_unref(Primitive), {\n    as: _ctx.as,\n    \"as-child\": _ctx.asChild,\n    class: _normalizeClass(_unref(cn)(_unref(buttonVariants)({ variant: _ctx.variant, size: _ctx.size }), props.class))\n  }, {\n    default: _withCtx(() => [\n      _renderSlot(_ctx.$slots, \"default\")\n    ]),\n    _: 3\n  }, 8, [\"as\", \"as-child\", \"class\"]))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,SAAS,QAAQ,cAAc,aAAa,kBAAkB,iBAAiB,WAAW,UAAU,aAAa,YAAY,eAAe,oBAAoB;AAGzK,SAAS,iBAAsC;AAC/C,SAA8B,sBAAsB;AACpD,SAAS,UAAU;AAUnB,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,OAAO;AAAA,IACL,SAAS,CAAC;AAAA,IACV,MAAM,CAAC;AAAA,IACP,IAAI,EAAE,SAAS,SAAS;AAAA,IACxB,OAAO,CAAC;AAAA,IACR,SAAS,EAAE,MAAM,QAAQ;AAAA,EAC3B;AAAA,EACA,MAAM,SAAc;AAEtB,UAAM,QAAQ;AAEd,WAAO,CAAC,MAAU,WAAgB;AAChC,aAAQ,WAAW,GAAG,aAAa,OAAO,SAAS,GAAG;AAAA,QACpD,IAAI,KAAK;AAAA,QACT,YAAY,KAAK;AAAA,QACjB,OAAO,gBAAgB,OAAO,EAAE,EAAE,OAAO,cAAc,EAAE,EAAE,SAAS,KAAK,SAAS,MAAM,KAAK,KAAK,CAAC,GAAG,MAAM,KAAK,CAAC;AAAA,MACpH,GAAG;AAAA,QACD,SAAS,SAAS,MAAM;AAAA,UACtB,YAAY,KAAK,QAAQ,SAAS;AAAA,QACpC,CAAC;AAAA,QACD,GAAG;AAAA,MACL,GAAG,GAAG,CAAC,MAAM,YAAY,OAAO,CAAC;AAAA,IACnC;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1709267031237,
+      "end": 1709267031237,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709267031237,
+      "end": 1709267031237,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1709267031237,
+      "end": 1709267031237,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709267031238,
+      "end": 1709267031238,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267031238,
+      "end": 1709267031238,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709267031238,
+      "end": 1709267031238,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1709267031238,
+      "end": 1709267031238,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709267031238,
+      "end": 1709267031238,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709267031238,
+      "end": 1709267031238,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709267031238,
+      "end": 1709267031238,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709267031238,
+      "end": 1709267031239,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709267031239,
+      "end": 1709267031239,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709267031239,
+      "end": 1709267031239,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709267031239,
+      "end": 1709267031239,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709267031239,
+      "end": 1709267031239,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709267031239,
+      "end": 1709267031239,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709267031239,
+      "end": 1709267031239,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709267031239,
+      "end": 1709267031239,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709267031239,
+      "end": 1709267031239,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709267031240,
+      "end": 1709267031246,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709267031246,
+      "end": 1709267031246,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709267031246,
+      "end": 1709267031246,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1709267031246,
+      "end": 1709267031247,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1709267031247,
+      "end": 1709267031247,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709267031247,
+      "end": 1709267031247,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709267031247,
+      "end": 1709267031247,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709267031247,
+      "end": 1709267031248,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709267031248,
+      "end": 1709267031248,
+      "order": "normal"
+    }
+  ]
+}
