@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   experimental: {
-    payloadExtraction: true
+    payloadExtraction: false
   },
   app: {
     baseURL: '/Antil_test/', // baseURL: '/<repository>/'
