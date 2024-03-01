@@ -40,7 +40,7 @@
         </SelectGroup>
       </SelectContent>
     </Select>
-    <Button @click="toLogin">To Login</Button>
+    <Button @click="toLogin">Login</Button>
   </div>
 </template>
 <script setup lang="ts">
