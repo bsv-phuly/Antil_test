@@ -23,4 +23,4 @@ jobs:
         ACCESS_TOKEN: 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
         BASE_BRANCH: develop
         BRANCH: gh-pages
-        FOLDER: .output
+        FOLDER: .nuxt
