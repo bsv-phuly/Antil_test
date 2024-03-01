@@ -5,12 +5,9 @@ on:
     branches:
       - develop
 jobs:
-  deploy:
-    name: Deploy
-    runs-on: ubuntu-latest
+  build:
 
-    permissions:
-      deployments: write
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout
@@ -21,12 +18,9 @@ jobs:
         npm install
         npm run build
     - name: Build and Deploy
-      uses: JamesIves/setpage-deploy-action@releases/v3
-      id: deployment
+      uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        token: '${{ secrets.TOKEN_GITHUB }}'
-        environment-url: http://antil_test.com
-        environment: production
+        ACCESS_TOKEN: ${{ secrets.TOKEN_GITHUB }}
         BASE_BRANCH: develop
         BRANCH: gh-pages
         FOLDER: .nuxt
