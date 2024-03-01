@@ -2,8 +2,8 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
-    // baseURL: '/Antil_test/', // baseURL: '/<repository>/'
-    // buildAssetsDir: 'assets', // don't use "_" at the begining of the folder name to avoids nojkill conflict
+    baseURL: '/Antil_test/', // baseURL: '/<repository>/'
+    buildAssetsDir: 'assets', // don't use "_" at the begining of the folder name to avoids nojkill conflict
   },
   modules: [
     'nuxt-typed-router',
