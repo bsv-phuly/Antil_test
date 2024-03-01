@@ -4,22 +4,29 @@ on:
   push:
     branches:
       - develop
-  workflow_dispatch:
-  
 jobs:
-  run_pull:
-    name: run pull
+  deploy:
+    name: Deploy
     runs-on: ubuntu-latest
-    
+
+    permissions:
+      deployments: write
+
     steps:
-    - name: install ssh keys
-      # check this thread to understand why its needed:
-      # https://stackoverflow.com/a/70447517
+    - name: Checkout
+      uses: actions/checkout@v1
+
+    - name: Build
       run: |
-        install -m 600 -D /dev/null ~/.ssh/id_rsa
-        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-        ssh-keyscan -H ${{ secrets.SSH_HOST }} > ~/.ssh/known_hosts
-    - name: connect and pull
-      run: ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "cd ${{ secrets.WORK_DIR }} && git checkout ${{ secrets.MAIN_BRANCH }} && git pull && exit"
-    - name: cleanup
-      run: rm -rf ~/.ssh
+        npm install
+        npm run build
+    - name: Build and Deploy
+      uses: JamesIves/setpage-deploy-action@releases/v3
+      id: deployment
+      with:
+        token: '${{ secrets.TOKEN_GITHUB }}'
+        environment-url: http://antil_test.com
+        environment: production
+        BASE_BRANCH: develop
+        BRANCH: gh-pages
+        FOLDER: .nuxt
