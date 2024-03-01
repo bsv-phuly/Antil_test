@@ -21,7 +21,6 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4.5.0
       with:
-        ACCESS_TOKEN: ${{ secrets.TOKEN_GITHUB }}
-        BASE_BRANCH: develop
-        BRANCH: gh-pages
-        FOLDER: .nuxt
+        token: ${{ secrets.TOKEN_GITHUB }}
+        branch: develop
+        folder: .nuxt
