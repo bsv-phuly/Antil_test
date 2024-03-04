@@ -41,6 +41,7 @@
       </SelectContent>
     </Select>
     <Button @click="toLogin">Login</Button>
+    <Button @click="toComment">Comment section</Button>
   </div>
 </template>
 <script setup lang="ts">
@@ -65,5 +66,8 @@ useHead({
 const router = useRouter()
 const toLogin = () => {
   router.push({ name: 'login' })
+}
+const toComment = () => {
+  router.push({ name: 'comment' })
 }
 </script>
